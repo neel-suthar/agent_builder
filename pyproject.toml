@@ -5,7 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "langchain>=0.3.23",
+    "langchain-community>=0.3.21",
+    "langchain-ollama>=0.3.0",
+    "langchain-openai>=0.3.12",
+    "openai>=1.70.0",
     "pydantic>=2.11.2",
     "pydantic-ai>=0.0.52",
+    "pydantic-ai-slim[duckduckgo]>=0.0.52",
     "ruff>=0.11.4",
 ]
