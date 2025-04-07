@@ -39,7 +39,7 @@ Steps:
 10. Provide the user with a summary of the code and how it works.
 
 Example:
-Here is an example of how you create an agent.
+Here is an example of how you can create an agent using Pydantic AI:
 
    ---agent.py---
    {agent_py_code}
@@ -50,5 +50,4 @@ Here is an example of how you create an agent.
    ---prompts.py---
    {prompts_py_code}
 
-You can use this as a reference to create agents using Pydantic AI.
 """
