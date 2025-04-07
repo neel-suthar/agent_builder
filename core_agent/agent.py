@@ -115,9 +115,10 @@ async def run_agent():
 
     prettier_code_blocks()
 
+    prompt = input("What kind of AI agent do you want to create? ")
+
     deps = CoreAgentDeps(vector_store=load_in_memory_vector_store())
     console = Console()
-    prompt = "How can I create a weather agent?"
     console.log(f"Asking: {prompt}...", style="cyan")
     with Live("", console=console, vertical_overflow="visible") as live:
         async with core_agent.run_stream(prompt, deps=deps) as result:
