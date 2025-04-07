@@ -27,33 +27,7 @@ uv install
 2. **Add Tools**: Define tools in `tools.py` that the agent can use.
 3. **Set Prompts**: Customize prompts in `prompts.py` to guide the agent's behavior.
 
-#### Example Code
-
-**agent.py**
-```python
-from pydantic_ai import Agent
-
-agent = Agent(
-    model="openai:gpt-4",
-    system_prompt="You are a helpful assistant.",
-)
-```
-
-**tools.py**
-```python
-from pydantic_ai.tools import Tool
-
-class CalculatorTool(Tool):
-    async def run(self, input: str) -> str:
-        return str(eval(input))
-```
-
-**prompts.py**
-```python
-MAIN_SYSTEM_PROMPT = """
-You are an expert assistant. Answer questions concisely and accurately.
-"""
-```
+<!-- Removed Example Code section -->
 
 ### Running the Agent
 
