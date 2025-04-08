@@ -19,6 +19,9 @@ cd agent-builder
 uv install
 ```
 
+## Sequence Diagram
+![alt text](<Screenshot 2025-04-08 at 1.44.37 PM.png>)
+
 ## Usage
 
 ### Example: Creating a Custom Agent
